@@ -109,17 +109,7 @@ class Profil extends React.Component {
                 onChange={this.handleChangeconfirmpass}
                 value={this.state.confirmpassword}
               />
-            </div>
-            <div className="textbox">
-              <i className="fas fa-lock"></i>
-              <input
-                type="password"
-                placeholder="Confirm Password"
-                onChange={this.handleChangeconfirmpass}
-                value={this.state.confirmpassword}
-              />
-            </div>
-
+            </div>            
             <input type="submit" className="btn" value="Update Profil" />
           </form>
         </div>
